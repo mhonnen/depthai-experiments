@@ -12,3 +12,5 @@ with OakCamera(args=args) as oak:
     oak.visualize(nn, fps=True, scale=2/3)
     oak.visualize(nn.out.passthrough, fps=True)
     oak.start(blocking=True)
+
+    
